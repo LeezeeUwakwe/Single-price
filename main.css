@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    font-family: 'karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.first {
+    height: 35vh;
+    margin-top: 2rem;
+    background-color: white;
+    padding: 2rem;
+    
+}
+
+.first h2 {
+    color: hsl(179, 62%, 43%);
+    
+}
+.first h3 {
+    color:  hsl(71, 73%, 54%);
+    
+    
+}
+.first p {
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5rem;
+    font-size: 1rem;
+    
+}
+.second  {
+    height: 30vh;
+    color:  hsl(204, 43%, 93%);
+    background-color: hsl(179, 62%, 43%);
+    padding: 1rem;
+}
+.second-child {
+    margin-bottom: 15px;
+}
+
+.second p{
+    font-size: 1rem;
+}
+.second h2 {
+    
+    font-size: 1.2rem;
+}
+.dur {
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+    
+
+.btn-sign {
+    width: 15rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    color:  hsl(204, 43%, 93%); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 1.2rem;
+}
+.third {
+    background-color:  hsl(182, 68%, 40%);
+    color:  hsl(204, 43%, 93%);
+    height: 25vh;
+    padding: 1rem;
+}
+.third h2 {
+    font-size: 1.2rem;
+
+}
+.third p {
+    font-size: 0.9rem;
+    line-height: 1.7rem;
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        width: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%, -50%);
+    }
+    .first{
+        padding: 1rem;
+        height: 25vh;
+    }
+    .sub-header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .third {
+        height: 30vh;
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
